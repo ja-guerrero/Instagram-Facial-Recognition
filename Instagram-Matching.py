@@ -63,11 +63,6 @@ def matchface(Image):
         
         plt.suptitle(meth)
         plt.show()
-test = {"Oscar":"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/s150x150/149212150_115497023847756_3063616317177549504_n.jpg?_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ohc=Uw5QVFARdgIAX8_3dHZ&tp=1&oh=792c84957230b398ca227083160762d6&oe=605B756C",
-"Guillermo":"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/s150x150/150362966_213416790485752_7896816056022961911_n.jpg?_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ohc=wYyirjJNgO4AX8qT9FV&tp=1&oh=ed13bb604144cf6f583fd1386412fe0c&oe=605869FA",
-"Jaime":"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/s150x150/139355427_245658343747844_3575271269871229516_n.jpg?_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ohc=JUsha2gTOeIAX9JoZ93&tp=1&oh=37267f965ff3bc524eed6e192245735d&oe=605A85AB", 
-"Yostim":"https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/s150x150/133849845_2750537688539927_5723557680305899379_n.jpg?_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_ohc=yacM62SzNFYAX-APeoK&tp=1&oh=c38c4a85ad82c1bfe7bd0cbc529e9375&oe=605B83B6"}
-#Image(test)
 
 
 def Image(arr):
