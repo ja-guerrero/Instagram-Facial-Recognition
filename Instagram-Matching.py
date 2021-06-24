@@ -87,9 +87,11 @@ local = {}
 
 client = InstaClient(driver_path='C:/Users/abyss/.wdm/drivers/chromedriver/win32/88.0.4324.96/chromedriver.exe')
 
-client.login(username='abyss033', password='#$Unknown$#')
+#Would Use .env file and pass the variables here 
+client.login(username='', password='')
 
-username = "viciouztrickster"
+#Username of the Users followers You want to scrape from
+username = ""
 
 followers = client.get_followers(user=username, count=65000000, callback_frequency=45)
 count = 0
