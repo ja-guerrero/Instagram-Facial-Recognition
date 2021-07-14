@@ -99,9 +99,6 @@ count = 0
 for follower in followers[0]:
     if follower["username"] not in local.keys():
         local[follower["username"]] = follower["profile_pic_url"]
-    if follower["username"][-3:] == "801":
-        print("Found")
-        print(follower["profile_pic_url"])
-        break
+
 
 Image(local)
