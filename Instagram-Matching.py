@@ -85,7 +85,8 @@ def Image(arr):
 
 local = {}
 
-client = InstaClient(driver_path='C:/Users/abyss/.wdm/drivers/chromedriver/win32/88.0.4324.96/chromedriver.exe')
+#Put ChromeDriver Path
+client = InstaClient(driver_path='')
 
 #Would Use .env file and pass the variables here 
 client.login(username='', password='')
